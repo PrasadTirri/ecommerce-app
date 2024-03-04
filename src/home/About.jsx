@@ -1,6 +1,7 @@
 import React from "react";
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
+import instructor from "/src/assets/images/instructor/01.png";
 
 const subTitle = "Why Choose Us";
 const title = "Become a Marchant";
@@ -63,7 +64,7 @@ const About = () => {
             </div>
             <div className="col">
               <div className="instructor-thumb">
-                <img src="/src/assets/images/instructor/01.png" alt="" />
+                <img src={instructor} alt="" />
               </div>
             </div>
           </div>

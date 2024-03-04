@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import AppStore from "/src/assets/images/app/01.jpg";
+import GoogleStore from "/src/assets/images/app/01.jpg";
 
 const btnText = "Sign up for Free";
 
@@ -23,12 +25,12 @@ const AppSection = () => {
           <ul className="lab-ul">
             <li>
               <a href="#">
-                <img src="/src/assets/images/app/01.jpg" alt="" />
+                <img src={AppStore} alt="" />
               </a>
             </li>
             <li>
               <a href="#">
-                <img src="/src/assets/images/app/02.jpg" alt="" />
+                <img src={GoogleStore} alt="" />
               </a>
             </li>
           </ul>
