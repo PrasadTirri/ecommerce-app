@@ -3,9 +3,18 @@ import Rating from "../components/Rating";
 import { Link } from "react-router-dom";
 
 const title = "Our Products";
+import image01 from "../assets/images/categoryTab/01.jpg";
+import image02 from "../assets/images/categoryTab/02.jpg";
+import image03 from "../assets/images/categoryTab/03.jpg";
+import image04 from "../assets/images/categoryTab/04.jpg";
+import image05 from "../assets/images/categoryTab/05.jpg";
+import image06 from "../assets/images/categoryTab/06.jpg";
+import image07 from "../assets/images/categoryTab/07.jpg";
+import image08 from "../assets/images/categoryTab/08.jpg";
+
 const ProductData = [
   {
-    imgUrl: "src/assets/images/categoryTab/01.jpg",
+    imgUrl: image01,
     cate: "Shoes",
     title: "Nike Premier X",
     author: "assets/images/course/author/01.jpg",
@@ -14,7 +23,7 @@ const ProductData = [
     id: 1,
   },
   {
-    imgUrl: "src/assets/images/categoryTab/02.jpg",
+    imgUrl: image02,
     cate: "Bags",
     title: "Asthetic Bags",
     author: "assets/images/course/author/02.jpg",
@@ -23,7 +32,7 @@ const ProductData = [
     id: 2,
   },
   {
-    imgUrl: "src/assets/images/categoryTab/03.jpg",
+    imgUrl: image03,
     cate: "Phones",
     title: "iPhone 12",
     author: "src/assets/images/categoryTab/brand/apple.png",
@@ -32,7 +41,7 @@ const ProductData = [
     id: 3,
   },
   {
-    imgUrl: "src/assets/images/categoryTab/04.jpg",
+    imgUrl: image04,
     cate: "Bags",
     title: "Hiking Bag 15 Nh100",
     author: "assets/images/course/author/04.jpg",
@@ -41,7 +50,7 @@ const ProductData = [
     id: 4,
   },
   {
-    imgUrl: "src/assets/images/categoryTab/05.jpg",
+    imgUrl: image05,
     cate: "Shoes",
     title: "Outdoor Sports Shoes",
     author: "assets/images/course/author/05.jpg",
@@ -50,7 +59,7 @@ const ProductData = [
     id: 5,
   },
   {
-    imgUrl: "src/assets/images/categoryTab/06.jpg",
+    imgUrl: image06,
     cate: "Beauty",
     title: "COSRX Snail Mucin",
     author: "assets/images/course/author/06.jpg",
@@ -59,16 +68,16 @@ const ProductData = [
     id: 6,
   },
   {
-    imgUrl: "src/assets/images/categoryTab/07.jpg",
+    imgUrl: image07,
     cate: "Bags",
-    title: "Look Less Chanel Bag ",
+    title: "Look Less Chanel Bag",
     author: "assets/images/course/author/01.jpg",
     brand: "Gucci",
     price: "$199.00",
     id: 7,
   },
   {
-    imgUrl: "src/assets/images/categoryTab/08.jpg",
+    imgUrl: image08,
     cate: "Shoes",
     title: "Casual Sneakers",
     author: "assets/images/course/author/02.jpg",

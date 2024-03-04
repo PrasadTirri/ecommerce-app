@@ -1,5 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import image01 from "../assets/images/category/01.jpg";
+import image02 from "../assets/images/category/02.jpg";
+import image03 from "../assets/images/category/03.jpg";
+import image04 from "../assets/images/category/04.jpg";
+import image05 from "../assets/images/category/05.jpg";
+import image06 from "../assets/images/category/06.jpg";
 
 const subTitle = "Choose Any Procducts";
 const title = "Buy Everything from Us";
@@ -7,42 +13,43 @@ const btnText = "Get Started Now";
 
 const categoryList = [
   {
-    imgUrl: "src/assets/images/category/01.jpg",
+    imgUrl: image01,
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-brand-windows",
     title: "DSLR Camera",
   },
   {
-    imgUrl: "src/assets/images/category/02.jpg",
+    imgUrl: image02,
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-brand-windows",
     title: "Shoes",
   },
   {
-    imgUrl: "src/assets/images/category/03.jpg",
+    imgUrl: image03,
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-brand-windows",
     title: "Photography",
   },
   {
-    imgUrl: "src/assets/images/category/04.jpg",
+    imgUrl: image04,
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-brand-windows",
     title: "Formal Dress",
   },
   {
-    imgUrl: "src/assets/images/category/05.jpg",
+    imgUrl: image05,
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-brand-windows",
     title: "Colorful Bags",
   },
   {
-    imgUrl: "src/assets/images/category/06.jpg",
+    imgUrl: image06,
     imgAlt: "category rajibraj91 rajibraj",
     iconName: "icofont-brand-windows",
     title: "Home Decor",
   },
 ];
+
 const HomeCategory = () => {
   return (
     <div className="category-section style-4 padding-tb">
